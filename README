@@ -1,5 +1,9 @@
 My custom django project template.
 
+```
+curl -sSL https://raw.githubusercontent.com/Krystofee/django_project_template/master/setup.sh | bash
+```
+
 Preinstalled:
 - django extensions
 - django browser reload
