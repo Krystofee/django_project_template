@@ -1,7 +1,14 @@
 My custom django project template.
 
-```
-curl -sSL https://raw.githubusercontent.com/Krystofee/django_project_template/master/setup.sh | bash
+```bash
+# Download the script
+curl -o create-django-project.sh [[URL]](https://raw.githubusercontent.com/Krystofee/django_project_template/master/setup.sh)
+
+# Make the script executable
+chmod +x create-django-project.sh
+
+# Run the script interactively
+./create-django-project.sh
 ```
 
 Preinstalled:
