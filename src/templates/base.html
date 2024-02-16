@@ -1,12 +1,14 @@
+{% load static %}
+
 <html>
-<head>
+  <head>
     <title>Test</title>
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script src="{% static 'htmx.js' %}" defer></script>
-</head>
+  </head>
 
-<body>
-{% block content %}{% endblock %}
-</body>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
 </html>

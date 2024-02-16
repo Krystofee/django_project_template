@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class TicketListConfig(AppConfig):
+class DashboardConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'ticket_list'
+    name = 'dashboard'

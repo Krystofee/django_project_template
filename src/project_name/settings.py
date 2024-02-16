@@ -31,12 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'ticket_list',
+    'dashboard',
 
     'django_htmx',
     'django_extensions',
     'django_browser_reload',
-    'slippers',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -75,7 +74,6 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
             ],
-            "builtins": ["slippers.templatetags.slippers"],
         },
     },
 ]
