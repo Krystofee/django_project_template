@@ -2,7 +2,7 @@ My custom django project template.
 
 ```bash
 # Download the script
-curl -o create-django-project.sh [[URL]](https://raw.githubusercontent.com/Krystofee/django_project_template/master/setup.sh)
+curl -o create-django-project.sh "https://raw.githubusercontent.com/Krystofee/django_project_template/master/setup.sh"
 
 # Make the script executable
 chmod +x create-django-project.sh
