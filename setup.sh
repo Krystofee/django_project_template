@@ -59,5 +59,5 @@ git commit -m "Initial commit"
 
 echo "Done... To run the project, run "
 echo ""
-echo "  make run"
+echo "  cd $new_name/src && make run"
 echo ""
